@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "waste-classification-iwms-using-yolov8"
+version = "0.1.0"
+description = ""
+authors = ["Samuvel6826 <samuvel6826@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.9"
+torch = "^2.2.0"
+torchvision = "^0.17.0"
+ultralytics = "^8.2.101"
+matplotlib = "^3.9.2"
+opencv-python = "^4.10.0.84"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
