@@ -3,7 +3,8 @@ import numpy as np
 from ultralytics import YOLO
 import threading
 
-model = YOLO('yolov8n.pt')
+# model = YOLO('yolov8n.pt')
+model = YOLO('best.pt')
 cap = cv2.VideoCapture(0)
 
 if not cap.isOpened():

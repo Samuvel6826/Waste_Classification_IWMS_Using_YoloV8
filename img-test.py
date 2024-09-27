@@ -2,6 +2,7 @@ from ultralytics import YOLO
 
 # Load a pre-trained model
 model = YOLO('yolov8n.pt')
+# model = YOLO('runs/train/weights/best.pt')
 
 # Perform inference on an example image
 results = model('https://ultralytics.com/images/bus.jpg')
