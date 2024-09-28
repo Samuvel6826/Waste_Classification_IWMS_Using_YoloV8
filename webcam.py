@@ -4,8 +4,10 @@ from ultralytics import YOLO
 import threading
 
 # Dynamically load the model from user input
-model_path = input("Enter the path to your YOLO model (e.g., 'yolov8n.pt' or 'runs/train/weights/best.pt'): ") or 'runs/train/weights/best.pt'
-model = YOLO(model_path)
+# model_path = input("Enter the path to your YOLO model (e.g., 'yolov8n.pt' or 'runs/train/weights/best.pt'): ") or 'runs/train/weights/best.pt'
+# model = YOLO(model_path)
+
+model = YOLO('yolov8n.pt')
 
 # Initialize video capture for the webcam
 cap = cv2.VideoCapture(0)
