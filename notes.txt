@@ -1,0 +1,16 @@
+train: /Volumes/PKC/PKC-Dev/Waste_Classification_IWMS_Using_YoloV8/data/waste/images/train
+val: /Volumes/PKC/PKC-Dev/Waste_Classification_IWMS_Using_YoloV8/data/waste/images/val
+
+nc: 11 # Number of classes
+names:
+  - Bottle # ID: 0
+  - Glass # ID: 1
+  - Paper # ID: 2
+  - Cardboard # ID: 3
+  - Organic Waste # ID: 4
+  - Plastic # ID: 5
+  - Battery # ID: 6
+  - Smartphone # ID: 7
+  - Monitor # ID: 8
+  - Cable # ID: 9
+  - E-Waste # ID: 10
